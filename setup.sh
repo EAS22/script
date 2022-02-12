@@ -61,8 +61,6 @@ else
     echo " system create new directory for new auto-script installation"
     sleep 1
     mkdir /var/lib/premium-script
-else
-    mkdir /var/lib/premium-script
 fi
 clear
 echo -e ""
