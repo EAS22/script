@@ -103,14 +103,14 @@ sleep 3
 clear 
 cd
 GitUser="EAS22"
-wget https://raw.githubusercontent.com/${GitUser}/aws/main/install/ssh-vpn.sh && chmod +x ssh-vpn.sh && screen -S ssh-vpn.sh ./ssh-vpn.sh
-wget https://raw.githubusercontent.com/${GitUser}/aws/main/websocket-python/websocket.sh && chmod +x websocket.sh && screen -S websocket.sh ./websocket.sh
-wget https://raw.githubusercontent.com/${GitUser}/aws/main/install/sstp.sh && chmod +x sstp.sh && screen -S sstp.sh ./sstp.sh
-wget https://raw.githubusercontent.com/${GitUser}/aws/main/install/wg.sh && chmod +x wg.sh && screen -S wg.sh ./wg.sh
-wget https://raw.githubusercontent.com/${GitUser}/aws/main/install/ssr.sh && chmod +x ssr.sh && screen -S ssr.sh ./ssr.sh
-wget https://raw.githubusercontent.com/${GitUser}/aws/main/install/shadowsocksobfs.sh && chmod +x shadowsocksobfs.sh && screen -S shadowsocksobfs.sh ./shadowsocksobfs.sh
-wget https://raw.githubusercontent.com/${GitUser}/aws/main/install/ins-vt.sh && chmod +x ins-vt.sh && sed -i -e 's/\r$//' /root/ins-vt.sh && screen -S v2ray.sh ./ins-vt.sh
-wget https://raw.githubusercontent.com/${GitUser}/aws/main/install/ipsec.sh && chmod +x ipsec.sh && screen -S ipsec.sh ./ipsec.sh
+wget https://raw.githubusercontent.com/${GitUser}/script/main/install/ssh-vpn.sh && chmod +x ssh-vpn.sh && screen -S ssh-vpn.sh ./ssh-vpn.sh
+wget https://raw.githubusercontent.com/${GitUser}/script/main/websocket-python/websocket.sh && chmod +x websocket.sh && screen -S websocket.sh ./websocket.sh
+wget https://raw.githubusercontent.com/${GitUser}/script/main/install/sstp.sh && chmod +x sstp.sh && screen -S sstp.sh ./sstp.sh
+wget https://raw.githubusercontent.com/${GitUser}/script/main/install/wg.sh && chmod +x wg.sh && screen -S wg.sh ./wg.sh
+wget https://raw.githubusercontent.com/${GitUser}/script/main/install/ssr.sh && chmod +x ssr.sh && screen -S ssr.sh ./ssr.sh
+wget https://raw.githubusercontent.com/${GitUser}/script/main/install/shadowsocksobfs.sh && chmod +x shadowsocksobfs.sh && screen -S shadowsocksobfs.sh ./shadowsocksobfs.sh
+wget https://raw.githubusercontent.com/${GitUser}/script/main/install/ins-vt.sh && chmod +x ins-vt.sh && sed -i -e 's/\r$//' /root/ins-vt.sh && screen -S v2ray.sh ./ins-vt.sh
+wget https://raw.githubusercontent.com/${GitUser}/script/main/install/ipsec.sh && chmod +x ipsec.sh && screen -S ipsec.sh ./ipsec.sh
 
 # Remove script has installed
 rm -f /root/ssh-vpn.sh
